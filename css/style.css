@@ -1,0 +1,46 @@
+
+/*components*/
+
+
+/*screens*/
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bgImage{
+    width: 103%;
+    height: 105%;
+    position: absolute;
+    opacity: 150%;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+.hidden{
+    display: none;
+}
+
+#clock{
+    font-size: 72px;
+    color: whitesmoke;
+}
+#todo-form{
+    position: relative;
+    left: -29px;
+}
+#quote{
+    font-size: 24px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+#weather{
+    font-size: 16px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
